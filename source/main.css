@@ -1,3 +1,8 @@
 :root {
   --Updated-20201-09-08: url(https://raw.githubusercontent.com/Exile1201/Discord-Theme/main/assets/error.jpg);
+  --Settings-Dock-Colour: var(--main-colour);
+  --BetterDocsBlockerWhite: var(--main-colour);
+  --BetterDocsBlockerBlack1: var(--background-colour);
+  --BetterDocsBlockerBlack2: var(--secondary-background-colour);
+  --ServerFolders-Guild-Columns: var(--guild-columns);
 }
