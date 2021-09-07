@@ -1,8 +1,3 @@
 :root {
-  --Settings-Dock-Colour: var(--Main-Colour);
-  --BetterDocsBlockerWhite: var(--Main-Colour);
-  --BetterDocsBlockerBlack1: var(--Background-Colour);
-  --BetterDocsBlockerBlack2: var(--Secondary-Background-Colour);
-  --ServerFolders-Guild-Columns: var(--Guild-Columns);
-  --Home-Icon-Mask: var(--Home-Icon);
-  
+  --Updated-20201-09-08: url();
+}
