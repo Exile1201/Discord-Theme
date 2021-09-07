@@ -1,3 +1,32 @@
+:root {
+  --TB-top: calc(var(--server-container) + var(--window-padding));
+  --TB-tr-roundness: var(--window-roundness);
+  --TB-position-top: var(--TB-top, var(--window-padding));
+  --TB-position-right: var(--window-padding);
+  --tint: rgba(var(--tint-colour), var(--tint-brightness));
+  --white-half: rgba(255,255,255,0.025);
+  --white: rgba(255,255,255,0.05);
+  --white-double: rgba(255,255,255,0.1);
+  --white-triple: rgba(255,255,255,0.15);
+  --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
+  --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
+  --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
+  --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
+  --text-shadow: 1;
+  --chat-embed: var(--background-secondary);
+  --discord-green: 67,181,129;
+  --discord-yellow: 219,171,9;
+  --discord-red: 215,58,73;
+  --discord-purple: 89,54,149;
+  --discord-invisible: 117,128,142;
+  --discord-nitro: 255,115,250;
+  --discord-blurple: 114,137,218;
+  --discord-spotify: 29,185,84;
+  --discord-twitch: 89,54,149;
+  --discord-xbox: 16,124,16;
+  --version: "Frosted Glass 2.0.9";
+}
+
 .theme-dark {
   --header-primary: #fff;
   --header-secondary: #bbb;
